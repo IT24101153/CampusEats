@@ -1,0 +1,22 @@
+# Environment files and local secrets
+.env
+.env.*
+!.env.example
+**/appsettings.Local.json
+
+# Node.js
+**/node_modules/
+**/dist/
+**/.vite/
+
+# .NET
+**/bin/
+**/obj/
+
+# IDE and operating-system files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.user
+*.suo
